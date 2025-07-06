@@ -76,13 +76,22 @@ Step-by-step instructions to set up and run the project.
 3. **Install Django:**
 
    * Open a terminal or command prompt.
+   * Clone the file using:
+     
+   ```bash
+     git clone https://github.com/rhemanth832/AcademiaShare.git
+     ```
+   ```bash
+     cd AcademiaShare
+     ```
+   
    * Run the following command to install Django:
 
      ```bash
      pip install django
      ```
 
-4. **Install SMTPMail and MIME:**
+3. **Install SMTPMail and MIME:**
 
    * Run the following commands to install the required packages:
 
@@ -91,7 +100,7 @@ Step-by-step instructions to set up and run the project.
      pip install mime
      ```
 
-5. **Set Absolute URLs for Images: (optional)**
+4. **Set Absolute URLs for Images: (optional)**
 
    * Open `login/views.py` and `teacherhome/views.py`.
    * Locate the URL for `textLogo.png` in both files.
@@ -105,7 +114,7 @@ Step-by-step instructions to set up and run the project.
      img_url = 'D:/path/to/the/image'
      ```
 
-6. **Change Gmail and Password (Optional)**
+5. **Change Gmail and Password (Optional)**
 
    * Open `login/views.py` and `teacherhome/views.py`.
    * Locate the `MAIL_ID` and `PASSWORD` variables in both files.
