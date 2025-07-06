@@ -1,141 +1,178 @@
-AcademiaShare : Django 📔
 
 
-Description
-AcademiaShare is a Django-based Campus Repository designed to streamline the file-sharing process between teachers and students. The platform offers distinct homepages for both teachers and students, each tailored to their specific needs. Teachers can efficiently manage files, set permissions, and maintain control over their uploads. On the other hand, students gain easy access to educational resources and a seamless file search experience.
+> **AcademiaShare – Django-based Campus File Sharing System**
 
-Features
-Teacher Homepage
-Upload Files:
-Teachers can upload files directly to the repository, making educational materials easily accessible to students. 📤
+The format and structure remain unchanged:
 
-Delete Files:
-Teachers have the capability to remove files, ensuring content relevance and organization within the repository. 🗑️
+---
 
-Set Permission Access:
-Control file access by setting permission levels. Teachers can manage who can view and download their uploaded files. 🔒
+#
 
-File Filtering:
-Teachers can view only the files they have uploaded, creating a personalized and organized experience. 📂
+**AcademiaShare – Django-based Campus File Sharing System 📔**
 
-Student Homepage
-View All Files:
-Students have access to a comprehensive list of all files uploaded by teachers, facilitating easy discovery of educational resources. 👀
+![banner](assets/banner.png)
 
-Download Files:
-Students can download files uploaded by teachers, enabling offline access to course materials. 📥
+##
 
-Search Functionality:
-An efficient search feature allows students to find files by their names, making it simple to locate specific educational resources. 🔍
+**Description**
 
-Tech Stack
-Django:
-The web application is built using the Django framework, providing a robust and scalable foundation for campus repository management. 🐍
+**AcademiaShare** is a Django-based Campus Repository designed to streamline the file-sharing process between teachers and students. The platform offers distinct homepages for both teachers and students, each tailored to their specific needs. Teachers can efficiently manage files, set permissions, and maintain control over their uploads. On the other hand, students gain easy access to educational resources and a seamless file search experience.
 
-Python:
-The backend logic and functionality are implemented using Python, ensuring a clean and efficient codebase. 🐍
+##
 
-SQLite Database:
-The project utilizes SQLite for database management, offering a lightweight and easily deployable solution. 🗃️
+**Features**
 
-HTML/CSS/JavaScript:
-The frontend is designed using a combination of HTML, CSS, and JavaScript to create a user-friendly and responsive interface. 🌐
+### Teacher Homepage
 
-Setup
+* **Upload Files:**
+  Teachers can upload files directly to the repository, making educational materials easily accessible to students. 📤
+
+* **Delete Files:**
+  Teachers have the capability to remove files, ensuring content relevance and organization within the repository. 🗑️
+
+* **Set Permission Access:**
+  Control file access by setting permission levels. Teachers can manage who can view and download their uploaded files. 🔒
+
+* **File Filtering:**
+  Teachers can view only the files they have uploaded, creating a personalized and organized experience. 📂
+
+### Student Homepage
+
+* **View All Files:**
+  Students have access to a comprehensive list of all files uploaded by teachers, facilitating easy discovery of educational resources. 👀
+
+* **Download Files:**
+  Students can download files uploaded by teachers, enabling offline access to course materials. 📥
+
+* **Search Functionality:**
+  An efficient search feature allows students to find files by their names, making it simple to locate specific educational resources. 🔍
+
+##
+
+**Tech Stack**
+
+* **Django:**
+  The web application is built using the Django framework, providing a robust and scalable foundation for campus repository management. 🐍
+
+* **Python:**
+  The backend logic and functionality are implemented using Python, ensuring a clean and efficient codebase. 🐍
+
+* **SQLite Database:**
+  The project utilizes SQLite for database management, offering a lightweight and easily deployable solution. 🗃️
+
+* **HTML/CSS/JavaScript:**
+  The frontend is designed using a combination of HTML, CSS, and JavaScript to create a user-friendly and responsive interface. 🌐
+
+##
+
+**Setup**
+
 Step-by-step instructions to set up and run the project.
 
-Prerequisites
-Download Python:
+### Prerequisites
 
-Visit the Python Download Page to download the latest version of Python.
+1. **Download Python:**
 
-Follow the installation instructions for your operating system.
+   * Visit the [Python Download Page](https://www.python.org/downloads/) to download the latest version of Python.
+   * Follow the installation instructions for your operating system.
 
-Get Pip:
+2. **Get Pip:**
 
-Pip usually comes bundled with Python installations after version 3.4. If you need to install or upgrade it, follow the instructions on the Pip Installation Guide.
+   * Pip usually comes bundled with Python installations after version 3.4. If you need to install or upgrade it, follow the instructions on the [Pip Installation Guide](https://pip.pypa.io/en/stable/installation/).
 
-Project Setup
-Install Django:
+### Project Setup
 
-Open a terminal or command prompt.
+3. **Install Django:**
 
-Run the following command to install Django:
+   * Open a terminal or command prompt.
+   * Run the following command to install Django:
 
-bash
-Copy
-Edit
-pip install django
-Install SMTPMail and MIME:
+     ```bash
+     pip install django
+     ```
 
-Run the following commands to install the required packages:
+4. **Install SMTPMail and MIME:**
 
-bash
-Copy
-Edit
-pip install smtpmail
-pip install mime
-Set Absolute URLs for Images:
+   * Run the following commands to install the required packages:
 
-Open login/views.py and teacherhome/views.py.
+     ```bash
+     pip install smtpmail
+     pip install mime
+     ```
 
-Locate the URL for textLogo.png in both files.
+5. **Set Absolute URLs for Images:**
 
-Replace the relative URL with an absolute URL. Example:
+   * Open `login/views.py` and `teacherhome/views.py`.
+   * Locate the URL for `textLogo.png` in both files.
+   * Replace the relative URL with an absolute URL. Example:
 
-python
-Copy
-Edit
-# Before
-img_url = 'textLogo.png'
+     ```python
+     # Before
+     img_url = 'textLogo.png'
 
-# After
-img_url = 'D:/path/to/the/image'
-Change Gmail and Password
+     # After
+     img_url = 'D:/path/to/the/image'
+     ```
 
-Open login/views.py and teacherhome/views.py.
+6. **Change Gmail and Password**
 
-Locate the URL for MAIL_ID and PASSWORD in both files.
+   * Open `login/views.py` and `teacherhome/views.py`.
+   * Locate the `MAIL_ID` and `PASSWORD` variables in both files.
+   * Change the password and email to your own.
+   * Refer here: [Steps to Create App Password – Google](https://support.google.com/accounts/answer/185833?hl=en)
 
-Change the password and email to your desired one. Refer here: Steps to Create App Password : Google
+     ```python
+     MAIL_ID = "ENTER_YOUR_GMAIL"
+     PASSWORD = "xxxx xxxx xxxx xxxx"
+     ```
 
-python
-Copy
-Edit
-MAIL_ID = "ENTER_YOUR_GMAIL"
-PASSWORD = "xxxx xxxx xxxx xxxx"
-Database Setup
-Run Migrations:
+### Database Setup
 
-In the root directory of your project, run the following commands to set up the database:
+7. **Run Migrations:**
 
-bash
-Copy
-Edit
-python manage.py makemigrations
-python manage.py migrate
-Run the Project
-Start the Development Server:
+   * In the root directory of your project, run the following commands to set up the database:
 
-Run the following command to start the development server:
+     ```bash
+     python manage.py makemigrations
+     python manage.py migrate
+     ```
 
-bash
-Copy
-Edit
-python manage.py runserver
-Visit http://localhost:8000/ in your web browser to view the project.
+### Run the Project
 
-User Interface (UI) and Email Client
+8. **Start the Development Server:**
 
+   * Run the following command to start the development server:
 
+     ```bash
+     python manage.py runserver
+     ```
 
+   * Visit [http://localhost:8000/](http://localhost:8000/) in your web browser to view the project.
 
+##
 
+**User Interface (UI) and Email Client**
 
+![login](assets/login.png)
+![signup](assets/signup.png)
+![no access](assets/no%20access.png)
+![404](assets/404.png)
+![student home](assets/student%20home.png)
+![teacher home](assets/teacher%20home.png)
+![file notification](assets/file%20notification.png)
 
+##
 
-Getting Started
-To set up and run AcademiaShare locally, follow the instructions in the Project Setup Guide provided in the repository.
+**Getting Started**
 
-Contributing
+To set up and run **AcademiaShare** locally, follow the instructions in the [Project Setup Guide](#) provided in the repository.
+
+##
+
+**Contributing**
+
 Contributions are welcome! 🤝
+
+##
+
+---
