@@ -147,9 +147,10 @@ Step-by-step instructions to set up and run the project.
 ![login](assets/login.png)
 ![signup](assets/signup.png)
 ![no access](assets/no%20access.png)
-![404](assets/404.png)
-![student home](assets/student%20home.png)
-![teacher home](assets/teacher%20home.png)
+![Screenshot 2025-07-06 125450](https://github.com/user-attachments/assets/11f4c743-d00c-4cb3-a798-53257f4ee0d5)
+![Screenshot 2025-07-06 125417](https://github.com/user-attachments/assets/043eaf39-a375-4a49-b8e6-01f5867ceaa1)
+
+
 
 ##
 
