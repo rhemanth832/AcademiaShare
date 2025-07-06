@@ -4,7 +4,6 @@
 
 **AcademiaShare – Django-based Campus File Sharing System 📔**
 
-![Academia Share Icon](https://github.com/user-attachments/assets/01ba11b7-fd36-4bdc-bf20-1eecd6f3608c)
 
 
 ##
