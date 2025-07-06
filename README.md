@@ -1,4 +1,4 @@
-**AcademiaShare – Django-based Campus File Sharing System 📔**
+**Academia Share – Django-based Campus File Sharing System 📔**
 
 ![Academia Share Icon](https://github.com/user-attachments/assets/61c88cd4-42c9-447d-998a-adb6288b0199)
 
@@ -7,7 +7,7 @@
 
 **Description**
 
-**AcademiaShare** is a Django-based Campus Repository designed to streamline the file-sharing process between teachers and students. The platform offers distinct homepages for both teachers and students, each tailored to their specific needs. Teachers can efficiently manage files, set permissions, and maintain control over their uploads. On the other hand, students gain easy access to educational resources and a seamless file search experience.
+**Academia Share** is a Django-based Campus Repository designed to streamline the file-sharing process between teachers and students. The platform offers distinct homepages for both teachers and students, each tailored to their specific needs. Teachers can efficiently manage files, set permissions, and maintain control over their uploads. On the other hand, students gain easy access to educational resources and a seamless file search experience.
 
 ##
 
