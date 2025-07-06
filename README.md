@@ -1,5 +1,3 @@
----
-
 **AcademiaShare – Django-based Campus File Sharing System 📔**
 
 
@@ -158,5 +156,3 @@ Step-by-step instructions to set up and run the project.
 To set up and run **AcademiaShare** locally, follow the instructions in the [Project Setup Guide](#) provided in the repository.
 
 ##
-
----
