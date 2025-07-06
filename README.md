@@ -1,16 +1,11 @@
-
-
-> **AcademiaShare – Django-based Campus File Sharing System**
-
-The format and structure remain unchanged:
-
 ---
 
 #
 
 **AcademiaShare – Django-based Campus File Sharing System 📔**
 
-![banner](assets/banner.png)
+![Academia Share Icon](https://github.com/user-attachments/assets/01ba11b7-fd36-4bdc-bf20-1eecd6f3608c)
+
 
 ##
 
@@ -159,19 +154,12 @@ Step-by-step instructions to set up and run the project.
 ![404](assets/404.png)
 ![student home](assets/student%20home.png)
 ![teacher home](assets/teacher%20home.png)
-![file notification](assets/file%20notification.png)
 
 ##
 
 **Getting Started**
 
 To set up and run **AcademiaShare** locally, follow the instructions in the [Project Setup Guide](#) provided in the repository.
-
-##
-
-**Contributing**
-
-Contributions are welcome! 🤝
 
 ##
 
