@@ -1,9 +1,8 @@
 ---
 
 #
-
 **AcademiaShare – Django-based Campus File Sharing System 📔**
-
+#
 
 
 ##
