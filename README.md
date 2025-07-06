@@ -138,7 +138,7 @@ Step-by-step instructions to set up and run the project.
      python manage.py runserver
      ```
 
-   * Visit [http://localhost:8000/](http://localhost:8000/) in your web browser to view the project.
+   * Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your web browser to view the project.
 
 ##
 
