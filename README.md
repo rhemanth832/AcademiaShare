@@ -91,7 +91,7 @@ Step-by-step instructions to set up and run the project.
      pip install mime
      ```
 
-5. **Set Absolute URLs for Images:**
+5. **Set Absolute URLs for Images: (optional)**
 
    * Open `login/views.py` and `teacherhome/views.py`.
    * Locate the URL for `textLogo.png` in both files.
@@ -105,7 +105,7 @@ Step-by-step instructions to set up and run the project.
      img_url = 'D:/path/to/the/image'
      ```
 
-6. **Change Gmail and Password**
+6. **Change Gmail and Password (Optional)**
 
    * Open `login/views.py` and `teacherhome/views.py`.
    * Locate the `MAIL_ID` and `PASSWORD` variables in both files.
